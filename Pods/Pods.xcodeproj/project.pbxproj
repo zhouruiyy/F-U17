@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -656,7 +656,7 @@
 		9A48DD31617C255B58CB3D2628BD24F4 /* HexColorTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HexColorTransform.swift; path = Source/HexColorTransform.swift; sourceTree = "<group>"; };
 		9B2BA418B11F40668AB20A27A725364C /* Task.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Task.swift; path = Sources/Moya/Task.swift; sourceTree = "<group>"; };
 		9D1A12D7E5CBF90DF9CBDDE15920CD05 /* IQUITextFieldView+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUITextFieldView+Additions.swift"; path = "IQKeyboardManagerSwift/Categories/IQUITextFieldView+Additions.swift"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9EEB2B1DBF35C684D12ED4A9FB44D8E2 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Result/Result.swift; sourceTree = "<group>"; };
 		9F0E8649177E9E37DF882B0F355E5BD5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		9FB72991ED69864314D5C619A15A4644 /* ExtendCustomModelType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExtendCustomModelType.swift; path = Source/ExtendCustomModelType.swift; sourceTree = "<group>"; };
@@ -986,7 +986,6 @@
 				9684B9477584E2E8E8B559B25E19957E /* UINavigationSXFixSpace.m */,
 				E97065D7B161CA764460B46985965020 /* Support Files */,
 			);
-			name = "UINavigation-SXFixSpace";
 			path = "UINavigation-SXFixSpace";
 			sourceTree = "<group>";
 		};
@@ -1031,7 +1030,6 @@
 				046183B37E5663A38D6769E0AF990E34 /* URLTransform.swift */,
 				FF804DE7E2C566C8AD630CDDCC473E09 /* Support Files */,
 			);
-			name = HandyJSON;
 			path = HandyJSON;
 			sourceTree = "<group>";
 		};
@@ -1064,7 +1062,6 @@
 				8E8ECB2F0102B20F972BECDFDDA8566C /* Then.swift */,
 				012FF78DA5E2D452E2E450D0F4FA31D6 /* Support Files */,
 			);
-			name = Then;
 			path = Then;
 			sourceTree = "<group>";
 		};
@@ -1161,7 +1158,6 @@
 				25C501AAC0D7DDA3BE4F9F4F80125042 /* UILayoutSupport+Extensions.swift */,
 				8A47FD3E9414290ED23CF38453516308 /* Support Files */,
 			);
-			name = SnapKit;
 			path = SnapKit;
 			sourceTree = "<group>";
 		};
@@ -1184,7 +1180,6 @@
 				F8076F0964ECEB775544B23202D640DE /* Support Files */,
 				93679FEE5E55D9F01E517FDD9FAC4765 /* View */,
 			);
-			name = Reusable;
 			path = Reusable;
 			sourceTree = "<group>";
 		};
@@ -1209,7 +1204,6 @@
 				C206CC09976D69A761E5F04E040A6B36 /* IQUIViewController+Additions.swift */,
 				8F4C5A7BE23335B5CAEFCD6B5C8F0BE7 /* Support Files */,
 			);
-			name = IQKeyboardManagerSwift;
 			path = IQKeyboardManagerSwift;
 			sourceTree = "<group>";
 		};
@@ -1304,7 +1298,6 @@
 				0FD27FFB76214F200227CB9718CCE658 /* UIButton+Kingfisher.swift */,
 				27B5C01D17CD1E23A1FEAB7C5900F492 /* Support Files */,
 			);
-			name = Kingfisher;
 			path = Kingfisher;
 			sourceTree = "<group>";
 		};
@@ -1315,7 +1308,6 @@
 				1F82D83175A5379C569C759A213901A4 /* MBProgressHUD.m */,
 				2E46B9DF84F240059393ECD8004C5843 /* Support Files */,
 			);
-			name = MBProgressHUD;
 			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
@@ -1340,7 +1332,6 @@
 				AA8C6E014ABA2B00FD570B042978EEB1 /* Core */,
 				E0BFCFCAA39178BAE6AB93A6336D3D8D /* Support Files */,
 			);
-			name = Moya;
 			path = Moya;
 			sourceTree = "<group>";
 		};
@@ -1409,7 +1400,6 @@
 				DF945D5526A63052F79CE3911388223F /* Resources */,
 				897775B0DA1FEA375A3C0F2F398DB633 /* Support Files */,
 			);
-			name = MJRefresh;
 			path = MJRefresh;
 			sourceTree = "<group>";
 		};
@@ -1510,7 +1500,6 @@
 				1C301DC2D894BF8586DF383DD093A56E /* ConstraintArrayDSL.swift */,
 				E5D4C9948DFEB27E33CDF849E7F5622A /* Support Files */,
 			);
-			name = SnapKitExtend;
 			path = SnapKitExtend;
 			sourceTree = "<group>";
 		};
@@ -1622,7 +1611,6 @@
 				206F26A98F388BACF01B614F01AF5E79 /* Resources */,
 				A5D167D7FA156F1D7BA4B474029FFC6F /* Support Files */,
 			);
-			name = LLCycleScrollView;
 			path = LLCycleScrollView;
 			sourceTree = "<group>";
 		};
@@ -1633,7 +1621,6 @@
 				5C505BCC8994B3DD73AE0D992CE4E2D7 /* HMSegmentedControl.m */,
 				7551B3D1CE80CF3AA1E133ACBB75FDC0 /* Support Files */,
 			);
-			name = HMSegmentedControl;
 			path = HMSegmentedControl;
 			sourceTree = "<group>";
 		};
@@ -1646,7 +1633,6 @@
 				5E066DBACD8908DE23725429E11DA360 /* ResultProtocol.swift */,
 				99008446A4F5ABDC6C2F84B48B76FACE /* Support Files */,
 			);
-			name = Result;
 			path = Result;
 			sourceTree = "<group>";
 		};
@@ -1675,7 +1661,6 @@
 				492D20AB0BDA0268D97D1C3F223FB70B /* EmptyDataSetView+Extension.swift */,
 				3BB6D0CA647604B039A58D2B09F31301 /* Support Files */,
 			);
-			name = "EmptyDataSet-Swift";
 			path = "EmptyDataSet-Swift";
 			sourceTree = "<group>";
 		};
@@ -1701,7 +1686,6 @@
 				BC1B9857C0C6EACCE686C6B425BAC6B0 /* Validation.swift */,
 				1B736C4047A39742024014A3CAABEA6B /* Support Files */,
 			);
-			name = Alamofire;
 			path = Alamofire;
 			sourceTree = "<group>";
 		};
@@ -2227,7 +2211,7 @@
 				LastUpgradeCheck = 1240;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 13.0";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
