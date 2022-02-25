@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3EA5148A27C69614005FE5B0 /* UReadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA5148927C69614005FE5B0 /* UReadViewController.swift */; };
+		3EA5148E27C6969F005FE5B0 /* UComicListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA5148D27C6969F005FE5B0 /* UComicListViewController.swift */; };
+		3EA5149227C696AB005FE5B0 /* UCommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA5149127C696AB005FE5B0 /* UCommentViewController.swift */; };
+		3EF88F7127C68F4100739EC6 /* UChapterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF88F7027C68F4100739EC6 /* UChapterViewController.swift */; };
 		63B02DACD4D79D47205E437E /* Pods_F_U17.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE9C540CAED83BC20EC8B0B1 /* Pods_F_U17.framework */; };
 		F007EEBC27C50570000DC443 /* UComicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F007EEBB27C50570000DC443 /* UComicViewController.swift */; };
 		F007EEBE27C50695000DC443 /* UDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F007EEBD27C50695000DC443 /* UDetailViewController.swift */; };
@@ -64,7 +68,6 @@
 		F06DF30D27BC0EBB0014D03E /* UCollectionViewSectionBackgroundLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06DF30C27BC0EBB0014D03E /* UCollectionViewSectionBackgroundLayout.swift */; };
 		F06DF30F27BC0EE30014D03E /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06DF30E27BC0EE30014D03E /* StringExtension.swift */; };
 		F06DF31127BC7ECC0014D03E /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06DF31027BC7ECC0014D03E /* ArrayExtensions.swift */; };
-		F06DF31327C142EF0014D03E /* DictionaryExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06DF31227C142EF0014D03E /* DictionaryExtension.swift */; };
 		F06DF31527C1461B0014D03E /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06DF31427C1461B0014D03E /* UIViewExtension.swift */; };
 		F06DF31727C147D90014D03E /* UIDeviceExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06DF31627C147D90014D03E /* UIDeviceExtension.swift */; };
 		F06DF31927C148010014D03E /* UIImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06DF31827C148010014D03E /* UIImageExtensions.swift */; };
@@ -84,6 +87,10 @@
 
 /* Begin PBXFileReference section */
 		063B30ED02CEC6C728CEACA7 /* Pods-F-U17.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-F-U17.release.xcconfig"; path = "Target Support Files/Pods-F-U17/Pods-F-U17.release.xcconfig"; sourceTree = "<group>"; };
+		3EA5148927C69614005FE5B0 /* UReadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UReadViewController.swift; sourceTree = "<group>"; };
+		3EA5148D27C6969F005FE5B0 /* UComicListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UComicListViewController.swift; sourceTree = "<group>"; };
+		3EA5149127C696AB005FE5B0 /* UCommentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UCommentViewController.swift; sourceTree = "<group>"; };
+		3EF88F7027C68F4100739EC6 /* UChapterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UChapterViewController.swift; sourceTree = "<group>"; };
 		8BC29CD191E0B284285D09DA /* Pods-F-U17.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-F-U17.debug.xcconfig"; path = "Target Support Files/Pods-F-U17/Pods-F-U17.debug.xcconfig"; sourceTree = "<group>"; };
 		DE9C540CAED83BC20EC8B0B1 /* Pods_F_U17.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_F_U17.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F007EEBB27C50570000DC443 /* UComicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UComicViewController.swift; sourceTree = "<group>"; };
@@ -147,7 +154,6 @@
 		F06DF30C27BC0EBB0014D03E /* UCollectionViewSectionBackgroundLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UCollectionViewSectionBackgroundLayout.swift; sourceTree = "<group>"; };
 		F06DF30E27BC0EE30014D03E /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		F06DF31027BC7ECC0014D03E /* ArrayExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExtensions.swift; sourceTree = "<group>"; };
-		F06DF31227C142EF0014D03E /* DictionaryExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DictionaryExtension.swift; path = ../../../../../../Documents/DictionaryExtension.swift; sourceTree = "<group>"; };
 		F06DF31427C1461B0014D03E /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		F06DF31627C147D90014D03E /* UIDeviceExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDeviceExtension.swift; sourceTree = "<group>"; };
 		F06DF31827C148010014D03E /* UIImageExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtensions.swift; sourceTree = "<group>"; };
@@ -277,7 +283,6 @@
 				F06DF2A527B64B830014D03E /* UIColorExtension.swift */,
 				F06DF30E27BC0EE30014D03E /* StringExtension.swift */,
 				F06DF31027BC7ECC0014D03E /* ArrayExtensions.swift */,
-				F06DF31227C142EF0014D03E /* DictionaryExtension.swift */,
 				F06DF31427C1461B0014D03E /* UIViewExtension.swift */,
 				F06DF31627C147D90014D03E /* UIDeviceExtension.swift */,
 				F06DF31827C148010014D03E /* UIImageExtensions.swift */,
@@ -441,6 +446,10 @@
 				F007EEBB27C50570000DC443 /* UComicViewController.swift */,
 				F007EEBD27C50695000DC443 /* UDetailViewController.swift */,
 				F007EEBF27C50ADA000DC443 /* UOtherWorksViewController.swift */,
+				3EF88F7027C68F4100739EC6 /* UChapterViewController.swift */,
+				3EA5148927C69614005FE5B0 /* UReadViewController.swift */,
+				3EA5148D27C6969F005FE5B0 /* UComicListViewController.swift */,
+				3EA5149127C696AB005FE5B0 /* UCommentViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -661,14 +670,17 @@
 				F06DF2F227BC0A810014D03E /* UComicCHead.swift in Sources */,
 				F06DF2E027BBFB4F0014D03E /* UChapterCCell.swift in Sources */,
 				F06DF2C627B911D60014D03E /* UDocumentListViewController.swift in Sources */,
+				3EA5149227C696AB005FE5B0 /* UCommentViewController.swift in Sources */,
 				F06DF2CC27B912600014D03E /* UModel.swift in Sources */,
 				F06DF2FA27BC0C5B0014D03E /* UUpdateTCell.swift in Sources */,
 				F06DF2FC27BC0C830014D03E /* UBoardCCell.swift in Sources */,
 				F007EEBC27C50570000DC443 /* UComicViewController.swift in Sources */,
 				F06DF2AB27B7EEE50014D03E /* UBaseViewController.swift in Sources */,
 				F06DF2E627BBFF790014D03E /* UOtherWorksTCell.swift in Sources */,
+				3EA5148A27C69614005FE5B0 /* UReadViewController.swift in Sources */,
 				F06DF2B127B807E30014D03E /* UPageViewController.swift in Sources */,
 				F06DF2DA27BABD7F0014D03E /* UComicHead.swift in Sources */,
+				3EF88F7127C68F4100739EC6 /* UChapterViewController.swift in Sources */,
 				F06DF2C227B90F030014D03E /* UDownloadListViewController.swift in Sources */,
 				F06DF31B27C148380014D03E /* DispatchQueueExtension.swift in Sources */,
 				F06DF2B727B90DAF0014D03E /* UBaseTableViewCell.swift in Sources */,
@@ -691,11 +703,11 @@
 				F06DF31927C148010014D03E /* UIImageExtensions.swift in Sources */,
 				F06DF30627BC0D9D0014D03E /* USearchTHead.swift in Sources */,
 				F06DF2F827BC0BB60014D03E /* UComicCCell.swift in Sources */,
+				3EA5148E27C6969F005FE5B0 /* UComicListViewController.swift in Sources */,
 				F06DF2AD27B7F9AF0014D03E /* UNavigationController.swift in Sources */,
 				F007EEBE27C50695000DC443 /* UDetailViewController.swift in Sources */,
 				F06DF2AF27B805420014D03E /* UTabBarController.swift in Sources */,
 				F06DF2D027B93AD10014D03E /* UTopCCell.swift in Sources */,
-				F06DF31327C142EF0014D03E /* DictionaryExtension.swift in Sources */,
 				F06DF2EE27BC058E0014D03E /* UGuessLikeTCell.swift in Sources */,
 				F06DF30227BC0D330014D03E /* UMineHead.swift in Sources */,
 				F06DF2EA27BC01C40014D03E /* UComicTCell.swift in Sources */,
@@ -872,6 +884,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5S4QSMZLCU;
@@ -904,6 +917,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5S4QSMZLCU;

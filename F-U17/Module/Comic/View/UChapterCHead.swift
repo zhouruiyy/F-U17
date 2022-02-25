@@ -53,14 +53,14 @@ class UChapterCHead: UBaseCollectionReusableView {
             $0.top.bottom.equalToSuperview()
             $0.right.equalTo(sortButton.snp.left).offset(-10)
         }
-        
-        var model: DetailStaticModel? {
-            didSet {
-                guard let model = model else { return }
-                let format = DateFormatter()
-                format.dateFormat = "yyyy-MM-dd"
-                chapterLabel.text = "目录\(format.string(from: Date(timeIntervalSince1970: model.comic? .last_update_time ?? 0))) 更新\(model.chapter_list?.last?.name ?? "")"
-            }
+    }
+    
+    var model: DetailStaticModel? {
+        didSet {
+            guard let model = model else { return }
+            let format = DateFormatter()
+            format.dateFormat = "yyyy-MM-dd"
+            chapterLabel.text = "目录\(format.string(from: Date(timeIntervalSince1970: model.comic? .last_update_time ?? 0))) 更新\(model.chapter_list?.last?.name ?? "")"
         }
     }
 }
