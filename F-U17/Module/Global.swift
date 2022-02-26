@@ -34,6 +34,12 @@ extension NSNotification.Name {
 let UScreenWidth = UIScreen.main.bounds.width
 let UScreenHeight = UIScreen.main.bounds.height
 
+var isIphoneX: Bool {
+    return UI_USER_INTERFACE_IDIOM() == .phone
+        && (max(UIScreen.main.bounds.height, UIScreen.main.bounds.width) == 812
+        || max(UIScreen.main.bounds.height, UIScreen.main.bounds.width) == 896)
+}
+
 //var topVC = UIViewController? {
 //    var resultVC : UIViewController?
 //    resultVC = _topVC(UIApplication.shared.keyWindow.rootViewController)
@@ -62,5 +68,24 @@ extension Kingfisher where Base: ImageView {
         return setImage(with: URL(string: urlString ?? ""),
                         placeholder: placeholder,
                         options:[.transition(.fade(0.5))])
+    }
+}
+
+
+extension UIApplication {
+    class func changeOrientationTo(landscapeRight: Bool) {
+        guard let delegate = UIApplication.shared.delegate as? AppDelegate else {
+            return
+        }
+        
+        if landscapeRight == true {
+            delegate.orientation = .landscapeRight
+            UIApplication.shared.supportedInterfaceOrientations(for: delegate.window)
+            UIDevice.current.setValue(UIInterfaceOrientation.landscapeRight.rawValue, forKey: "orientation")
+        } else {
+            delegate.orientation = .portrait
+            UIApplication.shared.supportedInterfaceOrientations(for: delegate.window)
+            UIDevice.current.setValue(UIInterfaceOrientation.portrait.rawValue, forKey: "orientation")
+        }
     }
 }

@@ -17,8 +17,6 @@
 		F007EEC027C50ADA000DC443 /* UOtherWorksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F007EEBF27C50ADA000DC443 /* UOtherWorksViewController.swift */; };
 		F06DF26D27B518110014D03E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06DF26C27B518110014D03E /* AppDelegate.swift */; };
 		F06DF26F27B518110014D03E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06DF26E27B518110014D03E /* SceneDelegate.swift */; };
-		F06DF27127B518110014D03E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06DF27027B518110014D03E /* ViewController.swift */; };
-		F06DF27427B518110014D03E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F06DF27227B518110014D03E /* Main.storyboard */; };
 		F06DF27627B518120014D03E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F06DF27527B518120014D03E /* Assets.xcassets */; };
 		F06DF27927B518120014D03E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F06DF27727B518120014D03E /* LaunchScreen.storyboard */; };
 		F06DF28427B518120014D03E /* F_U17Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06DF28327B518120014D03E /* F_U17Tests.swift */; };
@@ -73,6 +71,14 @@
 		F06DF31927C148010014D03E /* UIImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06DF31827C148010014D03E /* UIImageExtensions.swift */; };
 		F06DF31B27C148380014D03E /* DispatchQueueExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06DF31A27C148380014D03E /* DispatchQueueExtension.swift */; };
 		F06DF31D27C148D60014D03E /* UIBarButtonItemExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06DF31C27C148D60014D03E /* UIBarButtonItemExtension.swift */; };
+		F0A208D627CA00B6000E3EA9 /* UNoticeBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A208D527CA00B6000E3EA9 /* UNoticeBar.swift */; };
+		F0A208D827CA736B000E3EA9 /* UHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A208D727CA736B000E3EA9 /* UHomeViewController.swift */; };
+		F0A208DA27CA7392000E3EA9 /* USearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A208D927CA7392000E3EA9 /* USearchViewController.swift */; };
+		F0A208DC27CA73D9000E3EA9 /* UBoutiqueListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A208DB27CA73D9000E3EA9 /* UBoutiqueListViewController.swift */; };
+		F0A208DE27CA73EA000E3EA9 /* UVIPListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A208DD27CA73EA000E3EA9 /* UVIPListViewController.swift */; };
+		F0A208E027CA75E7000E3EA9 /* USubscibeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A208DF27CA75E7000E3EA9 /* USubscibeListViewController.swift */; };
+		F0A208E227CA7609000E3EA9 /* URankListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A208E127CA7609000E3EA9 /* URankListViewController.swift */; };
+		F0A208E427CA7822000E3EA9 /* UMineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A208E327CA7822000E3EA9 /* UMineViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,8 +105,6 @@
 		F06DF26927B518110014D03E /* F-U17.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "F-U17.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F06DF26C27B518110014D03E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F06DF26E27B518110014D03E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F06DF27027B518110014D03E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F06DF27327B518110014D03E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F06DF27527B518120014D03E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F06DF27827B518120014D03E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F06DF27A27B518120014D03E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -159,6 +163,14 @@
 		F06DF31827C148010014D03E /* UIImageExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtensions.swift; sourceTree = "<group>"; };
 		F06DF31A27C148380014D03E /* DispatchQueueExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchQueueExtension.swift; sourceTree = "<group>"; };
 		F06DF31C27C148D60014D03E /* UIBarButtonItemExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIBarButtonItemExtension.swift; sourceTree = "<group>"; };
+		F0A208D527CA00B6000E3EA9 /* UNoticeBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UNoticeBar.swift; sourceTree = "<group>"; };
+		F0A208D727CA736B000E3EA9 /* UHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UHomeViewController.swift; sourceTree = "<group>"; };
+		F0A208D927CA7392000E3EA9 /* USearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USearchViewController.swift; sourceTree = "<group>"; };
+		F0A208DB27CA73D9000E3EA9 /* UBoutiqueListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UBoutiqueListViewController.swift; sourceTree = "<group>"; };
+		F0A208DD27CA73EA000E3EA9 /* UVIPListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UVIPListViewController.swift; sourceTree = "<group>"; };
+		F0A208DF27CA75E7000E3EA9 /* USubscibeListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USubscibeListViewController.swift; sourceTree = "<group>"; };
+		F0A208E127CA7609000E3EA9 /* URankListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URankListViewController.swift; sourceTree = "<group>"; };
+		F0A208E327CA7822000E3EA9 /* UMineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UMineViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -226,7 +238,6 @@
 				F06DF29E27B615DB0014D03E /* Extension */,
 				F06DF29D27B615CC0014D03E /* Model */,
 				F06DF29C27B615C50014D03E /* Module */,
-				F06DF27227B518110014D03E /* Main.storyboard */,
 				F06DF27527B518120014D03E /* Assets.xcassets */,
 				F06DF27727B518120014D03E /* LaunchScreen.storyboard */,
 				F06DF27A27B518120014D03E /* Info.plist */,
@@ -256,7 +267,6 @@
 			children = (
 				F06DF26C27B518110014D03E /* AppDelegate.swift */,
 				F06DF26E27B518110014D03E /* SceneDelegate.swift */,
-				F06DF27027B518110014D03E /* ViewController.swift */,
 				F06DF2A327B6245C0014D03E /* Global.swift */,
 				F06DF2BF27B90EBF0014D03E /* Search */,
 				F06DF2BE27B90EBA0014D03E /* Mine */,
@@ -295,6 +305,7 @@
 		F06DF29F27B615EF0014D03E /* Component */ = {
 			isa = PBXGroup;
 			children = (
+				F0A208D427CA00A1000E3EA9 /* NoticeBar */,
 				F06DF30927BC0E800014D03E /* CollectionViewLayout */,
 			);
 			path = Component;
@@ -457,6 +468,11 @@
 		F06DF2EF27BC0A600014D03E /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				F0A208D727CA736B000E3EA9 /* UHomeViewController.swift */,
+				F0A208DB27CA73D9000E3EA9 /* UBoutiqueListViewController.swift */,
+				F0A208DD27CA73EA000E3EA9 /* UVIPListViewController.swift */,
+				F0A208DF27CA75E7000E3EA9 /* USubscibeListViewController.swift */,
+				F0A208E127CA7609000E3EA9 /* URankListViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -478,6 +494,7 @@
 		F06DF2FF27BC0D240014D03E /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				F0A208E327CA7822000E3EA9 /* UMineViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -493,6 +510,7 @@
 		F06DF30327BC0D8F0014D03E /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				F0A208D927CA7392000E3EA9 /* USearchViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -513,6 +531,14 @@
 				F06DF30C27BC0EBB0014D03E /* UCollectionViewSectionBackgroundLayout.swift */,
 			);
 			path = CollectionViewLayout;
+			sourceTree = "<group>";
+		};
+		F0A208D427CA00A1000E3EA9 /* NoticeBar */ = {
+			isa = PBXGroup;
+			children = (
+				F0A208D527CA00B6000E3EA9 /* UNoticeBar.swift */,
+			);
+			path = NoticeBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -600,7 +626,6 @@
 			files = (
 				F06DF27927B518120014D03E /* LaunchScreen.storyboard in Resources */,
 				F06DF27627B518120014D03E /* Assets.xcassets in Resources */,
-				F06DF27427B518110014D03E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -661,17 +686,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				F007EEC027C50ADA000DC443 /* UOtherWorksViewController.swift in Sources */,
-				F06DF27127B518110014D03E /* ViewController.swift in Sources */,
 				F06DF31727C147D90014D03E /* UIDeviceExtension.swift in Sources */,
 				F06DF2A227B616170014D03E /* UAPI.swift in Sources */,
 				F06DF26D27B518110014D03E /* AppDelegate.swift in Sources */,
 				F06DF2C427B90F270014D03E /* UBookViewController.swift in Sources */,
 				F06DF2A427B6245C0014D03E /* Global.swift in Sources */,
+				F0A208E027CA75E7000E3EA9 /* USubscibeListViewController.swift in Sources */,
 				F06DF2F227BC0A810014D03E /* UComicCHead.swift in Sources */,
 				F06DF2E027BBFB4F0014D03E /* UChapterCCell.swift in Sources */,
 				F06DF2C627B911D60014D03E /* UDocumentListViewController.swift in Sources */,
 				3EA5149227C696AB005FE5B0 /* UCommentViewController.swift in Sources */,
 				F06DF2CC27B912600014D03E /* UModel.swift in Sources */,
+				F0A208D827CA736B000E3EA9 /* UHomeViewController.swift in Sources */,
 				F06DF2FA27BC0C5B0014D03E /* UUpdateTCell.swift in Sources */,
 				F06DF2FC27BC0C830014D03E /* UBoardCCell.swift in Sources */,
 				F007EEBC27C50570000DC443 /* UComicViewController.swift in Sources */,
@@ -687,9 +713,14 @@
 				F06DF2DC27BBF6F30014D03E /* UTicketTCell.swift in Sources */,
 				F06DF31D27C148D60014D03E /* UIBarButtonItemExtension.swift in Sources */,
 				F06DF2F427BC0B850014D03E /* URankTCell.swift in Sources */,
+				F0A208E427CA7822000E3EA9 /* UMineViewController.swift in Sources */,
 				F06DF2D227B93BBD0014D03E /* UCateListViewController.swift in Sources */,
 				F06DF30F27BC0EE30014D03E /* StringExtension.swift in Sources */,
+				F0A208D627CA00B6000E3EA9 /* UNoticeBar.swift in Sources */,
+				F0A208DC27CA73D9000E3EA9 /* UBoutiqueListViewController.swift in Sources */,
+				F0A208DE27CA73EA000E3EA9 /* UVIPListViewController.swift in Sources */,
 				F06DF2B527B90D460014D03E /* UBaseCollectionReusableView.swift in Sources */,
+				F0A208DA27CA7392000E3EA9 /* USearchViewController.swift in Sources */,
 				F06DF2E227BBFCAA0014D03E /* UCommentTCell.swift in Sources */,
 				F06DF2E427BBFE930014D03E /* UReadTopBar.swift in Sources */,
 				F06DF2F627BC0BA10014D03E /* UComicCFoot.swift in Sources */,
@@ -718,6 +749,7 @@
 				F06DF2B927B90E340014D03E /* UBaseCollectionViewCell.swift in Sources */,
 				F06DF30B27BC0E990014D03E /* UCollectionViewAlignedLayout.swift in Sources */,
 				F06DF2CE27B9369E0014D03E /* URankCCell.swift in Sources */,
+				F0A208E227CA7609000E3EA9 /* URankListViewController.swift in Sources */,
 				F06DF30827BC0E140014D03E /* USearchTFoot.swift in Sources */,
 				F06DF2EC27BC04430014D03E /* UReadBottomBar.swift in Sources */,
 				F06DF2E827BC00220014D03E /* UDescriptionTCell.swift in Sources */,
@@ -743,14 +775,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F06DF27227B518110014D03E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F06DF27327B518110014D03E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F06DF27727B518120014D03E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -892,7 +916,6 @@
 				INFOPLIST_FILE = "F-U17/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -925,7 +948,6 @@
 				INFOPLIST_FILE = "F-U17/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
