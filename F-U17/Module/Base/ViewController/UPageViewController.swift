@@ -127,7 +127,7 @@ extension UPageViewController: UIPageViewControllerDataSource, UIPageViewControl
         guard let vc = pageViewController.viewControllers?.last, let index = vcs.firstIndex(of: vc) else { return }
         currentSelectedIndex = index
         segment.setSelectedSegmentIndex(UInt(index), animated: true)
-        guard titles != nil && pageStyle == .none else { return }
+        guard titles != nil && pageStyle == UPageStyle.none else { return }
         navigationItem.title = titles[index]
     }
     

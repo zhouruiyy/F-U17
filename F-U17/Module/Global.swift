@@ -71,6 +71,17 @@ extension Kingfisher where Base: ImageView {
     }
 }
 
+//MARK: SnapKit
+extension ConstraintView {
+    var usnp: ConstraintBasicAttributesDSL {
+        if #available(iOS 11.0, *) {
+            return self.safeAreaLayoutGuide.snp
+        } else {
+            return self.snp
+        }
+    }
+}
+
 
 extension UIApplication {
     class func changeOrientationTo(landscapeRight: Bool) {

@@ -21,4 +21,15 @@ class UComicViewController: UBaseViewController {
     }()
     
 //    private lazy var detailVC
+    
+    
+    convenience init(comicId: Int) {
+        self.init()
+        self.comicId = comicId
+    }
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+    }
 }

@@ -31,6 +31,11 @@ let timeoutClosure = {(endpoint: Endpoint, closure: MoyaProvider<UApi>.RequestRe
     }
 }
 
+//MARK: 无loading请求
+let ApiProvider = MoyaProvider<UApi>(requestClosure: timeoutClosure)
+//MARK: 有loading请求
+let ApiLoadingProvider = MoyaProvider<UApi>(requestClosure: timeoutClosure, plugins: [LoadingPlugin])
+
 
 // API定义
 enum UApi {
@@ -130,4 +135,33 @@ extension UApi: TargetType {
     
     var sampleData: Data { return "".data(using: String.Encoding.utf8)! }
     var headers: [String : String]? { return nil }
+}
+
+//MARK: 请求结果模型解析
+extension Response {
+    func mapModel<T: HandyJSON>(_ type: T.Type) throws -> T {
+        let jsonString = String(data: data, encoding: .utf8)
+        guard let model = JSONDeserializer<T>.deserializeFrom(json: jsonString) else {
+            throw MoyaError.jsonMapping(self)
+        }
+        return model
+    }
+}
+
+//MARK: 统一请求封装
+extension MoyaProvider {
+    @discardableResult
+    open func request<T: HandyJSON>(_ target: Target,
+                                    model: T.Type,
+                                    completion: ((_ returnData: T?) -> Void)?) -> Cancellable? {
+        
+        return request(target, completion: { (result) in
+            guard let completion = completion else { return }
+            guard let returnData = try? result.value?.mapModel(ResponseData<T>.self) else {
+                completion(nil)
+                return
+            }
+            completion(returnData.data?.returnData)
+        })
+    }
 }
